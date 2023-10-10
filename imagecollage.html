@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Collage</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blue;
+            margin:5% 0% 5% 0%;
+        }
+
+            
+        .flower{
+            background-image: url(/flower.jpg);
+            height: 400px;
+            width: 400px;
+            margin-left: 45%;
+            display: flex;
+            position: absolute;
+            z-index: 1;
+            border-radius: 5%;
+
+
+        }
+        .flower:hover {
+            background-image: url(/cute_dog.jpg);
+            background-repeat: no-repeat;
+            transition: ;
+            
+        }
+        .cloth{
+            background-image: url(/cloth.png);
+            height: 400px;
+            width: 400px;
+            margin: 20% 0% 0% 30%;
+            /* margin-left: 30%;
+            margin-top: 20%; */
+            background-position: center;
+           
+            position:absolute;
+            z-index: 2;
+            border-radius: 5%;
+           
+            
+        
+        }
+        .cloth:hover{
+            background-image: url(/girl.png);
+            background-repeat: no-repeat;
+          
+            
+        }
+        .girl{
+            background-image: url(/girl.png);
+            height: 400px;
+            width: 400px;
+            margin: 25% 0% 0% 55%;
+            /* margin-left:55% ;
+            margin-top: 25%; */
+            background-position: center;
+           
+            position:absolute;
+            z-index: 3;
+            border-radius: 5%;
+            
+           
+            
+        
+        }
+        .girl:hover{
+            background-image: url(/cloth.png);
+            background-repeat: no-repeat;
+           
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>This is a Image Collage EXample with Hover</h1>
+    
+    <div class="flower">    </div>
+    <div class="cloth"></div>
+    
+    <div class="girl" ></div>
+
+</body>
+</html>
